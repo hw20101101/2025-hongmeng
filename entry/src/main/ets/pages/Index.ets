@@ -1,5 +1,7 @@
 @Entry
 @Component
+
+//注：应用/服务包含的页面
 struct Index {
   @State message: string = 'Hello World 2';
 

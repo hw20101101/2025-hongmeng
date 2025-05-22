@@ -1,4 +1,5 @@
 {
+  //注：主要用来描述全局配置，如：依赖覆盖（overrides）、依赖关系重写（overrideDependencyMap）和参数化配置（parameterFile）等
   "modelVersion": "5.0.5",
   "description": "Please describe the basic information.",
   "dependencies": {

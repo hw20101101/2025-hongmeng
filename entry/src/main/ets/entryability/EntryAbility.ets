@@ -4,6 +4,7 @@ import { window } from '@kit.ArkUI';
 
 const DOMAIN = 0x0000;
 
+//注：应用/服务的入口
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
     this.context.getApplicationContext().setColorMode(ConfigurationConstant.ColorMode.COLOR_MODE_NOT_SET);

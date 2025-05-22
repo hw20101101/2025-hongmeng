@@ -1,4 +1,5 @@
 {
+  //注：工程级配置信息，包括签名signingConfigs、产品配置products等。其中products中可配置当前运行环境，默认为HarmonyOS。
   "app": {
     "signingConfigs": [],
     "products": [
