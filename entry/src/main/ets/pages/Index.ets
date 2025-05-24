@@ -1,3 +1,5 @@
+import { font } from '@kit.ArkUI';
+
 @Entry
 @Component
 
@@ -6,20 +8,27 @@ struct Index {
   @State message: string = 'Hello World 2';
 
   build() {
-    RelativeContainer() {
-      Text(this.message)
-        .id('HelloWorld')
-        .fontSize($r('app.float.page_text_font_size'))
-        .fontWeight(FontWeight.Bold)
-        .alignRules({
-          center: { anchor: '__container__', align: VerticalAlign.Center },
-          middle: { anchor: '__container__', align: HorizontalAlign.Center }
+    Row(){
+      Column(){
+        Text(this.message)
+          .fontSize(40)
+          .fontWeight(FontWeight.Bold)
+        //添加按钮
+        Button(){
+          Text('next').
+          fontSize(25).
+          fontWeight(FontWeight.Normal)
+        }
+        .type(ButtonType.Capsule)
+        .margin({
+          top:20
         })
-        .onClick(() => {
-          this.message = 'Welcome';
-        })
+        .backgroundColor('#0D9FFB')
+        .width('40%')
+        .height('%5')
+      }
+      .width('100%')
     }
     .height('100%')
-    .width('100%')
   }
 }
