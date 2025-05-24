@@ -6,7 +6,8 @@
         "API_TYPE": "stageMode"
       }
     ],
-    "BUILD_MODE": "debug"
+    "BUILD_MODE": "debug",
+    "USE_NORMALIZED_OHMURL": true
   },
   "HVIGOR": {
     "IS_INCREMENTAL": true,
@@ -15,21 +16,25 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "1043bfc77febe75fafec0c4309faccf1": {
-        "init": 337833,
-        "CreateModuleInfo": 1011833,
-        "PreCheckSyscap": 219750,
-        "PreviewProcessResource": 941708,
-        "PreviewHookCompileResource": 139750,
-        "ReplacePreviewerPage": 281292,
-        "buildPreviewerResource": 223250,
-        "PreviewArkTS": 3821093750,
-        "PreviewBuild": 237333
+        "init": 331750,
+        "PreBuild": 109460000,
+        "CreateModuleInfo": 682167,
+        "PreCheckSyscap": 203417,
+        "PreviewProcessResource": 1063834,
+        "PreviewCompileResource": 111073166,
+        "PreviewHookCompileResource": 165708,
+        "CopyPreviewProfile": 1820958,
+        "ReplacePreviewerPage": 224292,
+        "buildPreviewerResource": 100542,
+        "PreviewUpdateAssets": 935000,
+        "PreviewArkTS": 3620342791,
+        "PreviewBuild": 112416
       },
       "APP": {
-        "init": 131791
+        "init": 213292
       }
     },
-    "BUILD_ID": "202505250042075200",
-    "TOTAL_TIME": 4017294333
+    "TOTAL_TIME": 3990333041,
+    "BUILD_ID": "202505250054177160"
   }
 }
