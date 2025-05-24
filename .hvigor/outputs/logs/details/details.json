@@ -16,25 +16,20 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "1043bfc77febe75fafec0c4309faccf1": {
-        "init": 331750,
-        "PreBuild": 109460000,
-        "CreateModuleInfo": 682167,
-        "PreCheckSyscap": 203417,
-        "PreviewProcessResource": 1063834,
-        "PreviewCompileResource": 111073166,
-        "PreviewHookCompileResource": 165708,
-        "CopyPreviewProfile": 1820958,
-        "ReplacePreviewerPage": 224292,
-        "buildPreviewerResource": 100542,
-        "PreviewUpdateAssets": 935000,
-        "PreviewArkTS": 3620342791,
-        "PreviewBuild": 112416
-      },
-      "APP": {
-        "init": 213292
+        "CreateModuleInfo": 577458,
+        "PreCheckSyscap": 142541,
+        "PreviewProcessResource": 744667,
+        "PreviewCompileResource": 76089916,
+        "PreviewHookCompileResource": 149375,
+        "CopyPreviewProfile": 1126959,
+        "ReplacePreviewerPage": 134041,
+        "buildPreviewerResource": 80791,
+        "PreviewUpdateAssets": 653209,
+        "PreviewArkTS": 3685440250,
+        "PreviewBuild": 123750
       }
     },
-    "TOTAL_TIME": 3990333041,
-    "BUILD_ID": "202505250054177160"
+    "TOTAL_TIME": 3913507167,
+    "BUILD_ID": "202505250058564930"
   }
 }

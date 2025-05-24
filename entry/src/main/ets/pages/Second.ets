@@ -1,3 +1,6 @@
+import { router } from '@kit.ArkUI';
+import { BusinessError } from '@kit.BasicServicesKit';
+
 @Entry
 @Component
 struct Second {
@@ -22,6 +25,18 @@ struct Second {
         .backgroundColor('#0D9FFB')
         .width('40%')
         .height('5%')
+        //绑定按钮点击事件
+        .onClick(() => {
+          console.info('click back button')
+          try {
+            router.back();
+            console.info('success in return')
+          } catch (err) {
+            let code = (err as BusinessError).code;
+            let msg = (err as BusinessError).message;
+            console.error(`failed to return  code ${code}, msg ${msg}`)
+          }
+        })
       }
       .width('100%')
     }
